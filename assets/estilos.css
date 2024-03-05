@@ -12,7 +12,8 @@ body
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #a50f0f;
+  /* background: #a50f0f; */
+  background-image: url("https://telefonica.com.pe/wp-content/uploads/sites/5/2024/01/Movistar-TV-acompanara-a-Universitario-de-Deportes-en-su-Centenario.jpeg?resize=1224,673");
 }
 section 
 {
@@ -32,8 +33,7 @@ section::before
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#080808,rgb(140, 35, 35),#050505);
-  animation: animate 5s linear infinite;
+ 
 }
 @keyframes animate 
 {
@@ -57,9 +57,11 @@ section span
   transition: 1.5s;
 }
 section span:hover 
-{
-  background-color: #8D0E12;
+{  
+  background-color: #8D0E12; 
   transition: 0s;
+  opacity: 10%;
+
 }
 
 section .signin
@@ -166,8 +168,8 @@ input[type="submit"]:active
 }
 
 .logo-google{
-  width: 10%;
-  
+  width: 5%;
+
 
 }
 

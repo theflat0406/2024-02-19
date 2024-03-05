@@ -14,10 +14,10 @@ googleButton.addEventListener("click", async () => {
     try {
         const credentials = await signInWithPopup(auth, provider);
         
-        // Ocultar el modal
-        const signinModal = document.getElementById('signin');
-        const modal = bootstrap.Modal.getInstance(signinModal);
-        modal.hide();
+        // // Ocultar el modal
+        // const signinModal = document.getElementById('signin');
+        // const modal = bootstrap.Modal.getInstance(signinModal);
+        // modal.hide();
     }
     catch (error) {
         console.log(error);
